@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap');
 
 * {
     padding: 0;
@@ -16,6 +16,12 @@ body {
     width: 70%;
     margin: auto;
 }
+
+/*--------------------------------------------------------------
+----------------------------------------------------------------
+HEADER
+----------------------------------------------------------------
+--------------------------------------------------------------*/
 
 header {
     display: flex;
@@ -46,12 +52,19 @@ header nav a {
     text-decoration: none;
     font-size: 1.3rem;
     display: flex;
+    font-weight: 800;
 }
 
 header nav img {
     width: 100px;
     height: 100px;
 }
+
+/*--------------------------------------------------------------
+----------------------------------------------------------------
+CAROUSEL
+----------------------------------------------------------------
+--------------------------------------------------------------*/
 
 .carousel {
     margin-bottom: 30px;
@@ -66,17 +79,23 @@ header nav img {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    border: 4px solid white;
+    border: 5px solid white;
     background-color: rgba(0, 0, 0, 0.0);
-    font-weight: bold;
     cursor: pointer;
 }
+
+/*--------------------------------------------------------------
+----------------------------------------------------------------
+MAIN SECTION
+----------------------------------------------------------------
+--------------------------------------------------------------*/
 
 .mainSection {
     display: flex;
     flex-direction: row;
     margin-top: 100px;
     padding: 20px;
+    color:#484848;
 }
 
 .mainSection:nth-child(odd){
@@ -109,6 +128,12 @@ header nav img {
     margin-bottom: 30px;
 }
 
+/*--------------------------------------------------------------
+----------------------------------------------------------------
+GOOGLE MAP AND CONTACT INFO
+----------------------------------------------------------------
+--------------------------------------------------------------*/
+
 .googleMap {
     display: flex;
     flex-direction: row;
@@ -139,3 +164,89 @@ header nav img {
     color: white;
     padding-left: 20px;
 }
+
+/*--------------------------------------------------------------
+----------------------------------------------------------------
+FOOTER
+----------------------------------------------------------------
+--------------------------------------------------------------*/
+
+footer {
+    background-color:#0075db;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 800;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer .logo img {
+    width: 100px;
+    height: 100px;
+}
+
+footer .meni {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer .meni a{
+    text-decoration: none;
+    color: white;
+}
+
+footer hr {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    font-weight: 800;
+}
+
+footer .meni2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+footer .meni2 a{
+    color: white;
+    text-decoration: none;
+}
+
+footer .socialNetworks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+footer .socialNetworks a {
+    margin-left: 50px;
+    font-size: 3rem;
+}
+
+/*--------------------------------------------------------------
+----------------------------------------------------------------
+RESPONSIVE
+----------------------------------------------------------------
+--------------------------------------------------------------*/
