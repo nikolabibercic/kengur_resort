@@ -17,11 +17,7 @@ body {
     margin: auto;
 }
 
-/*--------------------------------------------------------------
-----------------------------------------------------------------
-HEADER
-----------------------------------------------------------------
---------------------------------------------------------------*/
+/*----- HEADER -----*/
 
 header {
     display: flex;
@@ -60,11 +56,7 @@ header nav img {
     height: 100px;
 }
 
-/*--------------------------------------------------------------
-----------------------------------------------------------------
-CAROUSEL
-----------------------------------------------------------------
---------------------------------------------------------------*/
+/*----- CAROUSEL -----*/
 
 .carousel {
     margin-bottom: 30px;
@@ -84,11 +76,7 @@ CAROUSEL
     cursor: pointer;
 }
 
-/*--------------------------------------------------------------
-----------------------------------------------------------------
-MAIN SECTION
-----------------------------------------------------------------
---------------------------------------------------------------*/
+/*----- MAIN SECTION -----*/
 
 .mainSection {
     display: flex;
@@ -107,7 +95,7 @@ MAIN SECTION
     padding-left: 0px;
 }
 
-.mainSection img {
+.mainSection #img1 {
     flex: 0 0 49%;
     height: 400px;
 }
@@ -128,11 +116,17 @@ MAIN SECTION
     margin-bottom: 30px;
 }
 
-/*--------------------------------------------------------------
-----------------------------------------------------------------
-GOOGLE MAP AND CONTACT INFO
-----------------------------------------------------------------
---------------------------------------------------------------*/
+.secondarySection .services {
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px;
+    color: #0075db;
+}
+
+/*----- GOOGLE MAP AND CONTACT INFO -----*/
 
 .googleMap {
     display: flex;
@@ -165,11 +159,7 @@ GOOGLE MAP AND CONTACT INFO
     padding-left: 20px;
 }
 
-/*--------------------------------------------------------------
-----------------------------------------------------------------
-FOOTER
-----------------------------------------------------------------
---------------------------------------------------------------*/
+/*----- FOOTER -----*/
 
 footer {
     background-color:#0075db;
@@ -245,8 +235,140 @@ footer .socialNetworks a {
     font-size: 3rem;
 }
 
-/*--------------------------------------------------------------
-----------------------------------------------------------------
-RESPONSIVE
-----------------------------------------------------------------
---------------------------------------------------------------*/
+/*----------------------*/
+/*----- RESPONSIVE -----*/
+/*----------------------*/
+
+@media (max-width: 1024px) {
+
+    /*----- HEADER -----*/
+
+    header {
+        overflow: hidden;
+        height: 100vh;
+    }
+
+    header nav {
+        flex-direction: column;
+    }
+
+    header nav img {
+        margin-bottom: 20px;
+    }
+
+    /*----- MAIN SECTION -----*/
+
+    
+    .mainSection {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0px;
+    }
+
+    .mainSection:nth-child(odd){
+        flex-direction: column-reverse;
+        display: flex;
+    }
+
+    .mainSection:nth-child(odd) :nth-child(2) {
+        padding-left: 10px;
+    }
+
+    .mainSection #img1 {
+        width: 100%;
+        max-height: 500px;
+    }
+    
+    /*----- GOOGLE MAP AND CONTACT INFO -----*/
+
+    .googleMap {
+        flex-direction: column;
+    }
+
+    .googleMap iframe {
+        width: 100%;
+    }
+
+    .googleMap .contactInfo {
+        width: 100%;
+    }
+
+    .googleMap .contactInfo h2 {
+        font-size: 2.3rem;
+    }
+
+    .googleMap .contactInfo p {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    /*----- MAIN SECTION -----*/
+
+    .mainSection {
+        margin-top: 50px;
+    }
+
+    .mainSection #img1 {
+        max-height: 300px;
+    }
+
+    .secondarySection h2 {
+        font-size: 2.3rem;
+        margin-bottom: 30px;
+    }
+    
+    .secondarySection .services {
+        font-size: 1.6rem;
+        padding: 50px;
+    }
+
+    /*----- GOOGLE MAP AND CONTACT INFO -----*/
+
+    .googleMap .contactInfo h2 {
+        font-size: 2rem;
+    }
+
+    .googleMap .contactInfo p {
+        font-size: 1.2rem;
+    }
+
+    
+    /*----- FOOTER -----*/
+
+    footer .logo {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    footer .logo img {
+        width: 100px;
+        height: 100px;
+    }
+
+    footer .meni {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    footer .meni2 {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    footer .socialNetworks {
+        flex-direction: row;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    footer .socialNetworks a {
+        margin-left: 20px;
+    }
+
+}
