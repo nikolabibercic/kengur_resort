@@ -6,6 +6,9 @@ var btn3 = document.getElementById('btn3');
 var btn4 = document.getElementById('btn4');
 var btn5 = document.getElementById('btn5');
 var btn6 = document.getElementById('btn6');
+var btnBars = document.getElementById('btnBars');
+var meniHeader = document.querySelectorAll('.meniHeader');
+var nav1 = document.getElementById('nav1');
 
 var headerImgs = ['img/header1.jpg','img/header2.jpg','img/header3.jpg','img/header4.jpg','img/header5.jpg','img/header6.jpg'];
 
@@ -92,3 +95,19 @@ var carouselInterval = setInterval(function(){
     counter++;
 
 },3000);
+
+
+btnBars.addEventListener('click',() => {
+
+    for(i=0;i<meniHeader.length;i++){
+        if(meniHeader[i].style.display === 'flex'){
+            meniHeader[i].style.display = 'none'
+            nav1.style.marginBottom = '0px'
+        }else{
+            meniHeader[i].style.display = 'flex';
+            nav1.style.marginBottom = '20px'
+        }
+    }
+
+});
+

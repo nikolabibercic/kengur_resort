@@ -30,6 +30,7 @@ header {
     background-position: center center;
     background-size: cover;
     transition: 0.4s;
+    position: relative;
 }
 
 header nav {
@@ -43,6 +44,12 @@ header nav {
     background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4));
 }
 
+header .fa-bars {
+    font-size: 4rem;
+    color: white;
+    display: none;
+}
+
 header nav a {
     color: #fff;
     text-decoration: none;
@@ -54,6 +61,25 @@ header nav a {
 header nav img {
     width: 100px;
     height: 100px;
+}
+
+.meniHeader {
+    display: flex;
+}
+
+.aboutUs {
+    width: 40%;
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4));
+    color: white;
+    padding: 10px;
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+    font-weight: 800;
+}
+
+.aboutUs h1 {
+    font-size: 3.5rem;
 }
 
 /*----- CAROUSEL -----*/
@@ -254,6 +280,40 @@ footer .socialNetworks a {
 
     header nav img {
         margin-bottom: 20px;
+    }
+
+    header nav div {
+        width: 100%;
+    }
+
+    header nav div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    header nav div a img {
+        margin-bottom: 0px;
+    }
+
+    header .fa-bars {
+        display: flex;
+    }
+
+    .meniHeader {
+        display: none;
+    }
+
+    .aboutUs {
+        width: 100%;
+        padding: 0px;
+        left: 0px;
+        bottom: 100px;
+    }
+
+    .aboutUs h1 {
+        font-size: 2.2rem;
     }
 
     /*----- MAIN SECTION -----*/
