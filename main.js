@@ -1,82 +1,75 @@
 var header = document.getElementById('header');
-var btns = document.querySelectorAll('.btn');
-var btn1 = document.getElementById('btn1');
-var btn2 = document.getElementById('btn2');
-var btn3 = document.getElementById('btn3');
-var btn4 = document.getElementById('btn4');
-var btn5 = document.getElementById('btn5');
-var btn6 = document.getElementById('btn6');
+
 var btnBars = document.getElementById('btnBars');
 var meniHeader = document.querySelectorAll('.meniHeader');
 var nav1 = document.getElementById('nav1');
+var carousel = document.getElementById('carousel');
 
-var headerImgs = ['img/header1.jpg','img/header2.jpg','img/header3.jpg','img/header4.jpg','img/header5.jpg','img/header6.jpg'];
+var headerImgs = [];
 
-//Change header background image on click
-btn1.addEventListener('click',() => {
-    header.style.backgroundImage = "url(' " + headerImgs[0] + " ')";
-    clearInterval(carouselInterval);
+//Kupim naziv strane
+var page = window.location.href;
+var pageArray = page.split('/');
+var pageName = pageArray[pageArray.length-1];
 
-    for(i=0;i<btns.length;i++){
-        btns[i].style.backgroundColor = 'transparent';
-    }
+//U zavisnosti od strane punim u niz headerImgs razlicite slike
+if(pageName === 'index.php'){
+    headerImgs = ['img/header1.jpg','img/header2.jpg','img/header3.jpg','img/header4.jpg','img/header5.jpg','img/header6.jpg'];
+}
 
-    btn1.style.backgroundColor = '#0075db';
-});
-btn2.addEventListener('click',() => {
-    header.style.backgroundImage = "url(' " + headerImgs[1] + " ')";
-    clearInterval(carouselInterval);
+if(pageName === 'contact.php'){
+    headerImgs = ['img/header1.jpg','img/header2.jpg','img/header3.jpg','img/header4.jpg','img/header5.jpg','img/header6.jpg'];
+}
 
-    for(i=0;i<btns.length;i++){
-        btns[i].style.backgroundColor = 'transparent';
-    }
+if(pageName === 'bazen.php'){
+    headerImgs = ['img/bazen2.jpg','img/bazen3.jpg','img/bazen4.jpg','img/bazen5.jpg','img/bazen6.jpg','img/bazen7.jpg'];
+}
 
-    btn2.style.backgroundColor = '#0075db';
-});
-btn3.addEventListener('click',() => {
-    header.style.backgroundImage = "url(' " + headerImgs[2] + " ')";
-    clearInterval(carouselInterval);
+if(pageName === 'decijaIgraonica.php'){
+    headerImgs = ['img/decijaIgraonica1.jpg','img/decijaIgraonica2.jpg','img/decijaIgraonica3.jpg','img/decijaIgraonica4.jpg'];
+}
 
-    for(i=0;i<btns.length;i++){
-        btns[i].style.backgroundColor = 'transparent';
-    }
+if(pageName === 'restoran.php'){
+    headerImgs = ['img/restoran1.jpg','img/restoran2.jpg'];
+}
 
-    btn3.style.backgroundColor = '#0075db';
-});
-btn4.addEventListener('click',() => {
-    header.style.backgroundImage = "url(' " + headerImgs[3] + " ')";
-    clearInterval(carouselInterval);
+if(pageName === 'salaZaProslave.php'){
+    headerImgs = ['img/salaZaProslave1.jpg'];
+}
 
-    for(i=0;i<btns.length;i++){
-        btns[i].style.backgroundColor = 'transparent';
-    }
+if(pageName === 'sobeIApartmani.php'){
+    headerImgs = ['img/soba2.jpg','img/soba3.jpg','img/soba4.jpg','img/soba5.jpg','img/soba7.jpg'];
+}
 
-    btn4.style.backgroundColor = '#0075db';
-});
-btn5.addEventListener('click',() => {
-    header.style.backgroundImage = "url(' " + headerImgs[4] + " ')";
-    clearInterval(carouselInterval);
+//Kreiranje button elemenata za carousel
+for(i=0;i<=headerImgs.length-1;i++){
+    carousel.innerHTML += '<button class="btn" id="btn' + (i+1) + '"></button>';
+};
 
-    for(i=0;i<btns.length;i++){
-        btns[i].style.backgroundColor = 'transparent';
-    }
 
-    btn5.style.backgroundColor = '#0075db';
-});
-btn6.addEventListener('click',() => {
-    header.style.backgroundImage = "url(' " + headerImgs[5] + " ')";
-    clearInterval(carouselInterval);
+var btns = document.querySelectorAll('.btn');
 
-    for(i=0;i<btns.length;i++){
-        btns[i].style.backgroundColor = 'transparent';
-    }
+//Dodavanje eventa na svaki button
+btns.forEach(btnEvent);
 
-    btn6.style.backgroundColor = '#0075db';
-});
-
+function btnEvent(btn,index){
+    btn.addEventListener('click',() => {
+        header.style.backgroundImage = "url(' " + headerImgs[index] + " ')";
+        clearInterval(carouselInterval);
+        for(i=0;i<btns.length;i++){
+            btns[i].style.backgroundColor = 'transparent';
+        }
+        btn.style.backgroundColor = '#0075db';
+    });
+}
 
 //Header background image carousel interval every 3 seconds
 var counter = 0;
+
+header.style.backgroundImage = "url(' " + headerImgs[counter] + " ')";
+btns[counter].style.backgroundColor = '#0075db';
+
+counter++;
 
 var carouselInterval = setInterval(function(){
 
@@ -96,7 +89,7 @@ var carouselInterval = setInterval(function(){
 
 },3000);
 
-
+//Klikom na bars dugme radim hide ili display meni linkova ka stranicama sajta
 btnBars.addEventListener('click',() => {
 
     for(i=0;i<meniHeader.length;i++){
