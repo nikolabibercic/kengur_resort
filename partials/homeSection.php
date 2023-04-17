@@ -1,4 +1,5 @@
-<section class="mainSection">      
+   
+   <section class="mainSection">      
         <img src="img/soba1.jpg" alt="Sobe i apartmani" id="img1">
         <article class="secondarySection">
             <h2>Sobe i apartmani</h2>  

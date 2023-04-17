@@ -17,6 +17,16 @@ body {
     margin: auto;
 }
 
+/*----- TELEPHONE -----*/
+
+.telephone {
+    font-size: 4rem;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: none;
+}
+
 /*----- HEADER -----*/
 
 header {
@@ -76,6 +86,7 @@ header nav img {
     left: 100px;
     bottom: 100px;
     font-weight: 800;
+    display: block;
 }
 
 .aboutUs h1 {
@@ -174,6 +185,7 @@ header nav img {
 .pageSection article h2 {
     font-size: 3rem;
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 .pageSection .gallery {
@@ -184,7 +196,7 @@ header nav img {
     width: 100%;
 }
 
-.pageSection .gallery h2{
+.pageSection .gallery h3{
     width: 100%;
     background-color: #ffbf00;
     font-size: 2rem;
@@ -192,6 +204,7 @@ header nav img {
     text-align: center;
     margin-bottom: 5px;
     margin-top: 50px;
+    text-transform: uppercase;
 }
 
 .pageSection .gallery .images{
@@ -207,6 +220,55 @@ header nav img {
     width: 300px;
     margin-left: 5px;
     margin-bottom: 5px;
+}
+
+.pageSection .pricelist {
+    margin-top: 50px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,165,219,0.8),rgba(0,165,219,0.8)), url('img/header1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 80vh;
+    text-transform: uppercase;
+}
+
+.pageSection .pricelist h3 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.pageSection .pricelist div {
+    width: 100%;
+    overflow-x: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageSection .pricelist table{
+    color: #0075db;
+    text-align: left;
+    font-size: 1.5rem;
+    background-color: white;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.pageSection .pricelist table th{
+    color: white;
+    background-color: #ffbf00;
+}
+
+
+.pageSection .pricelist table th td{
+    padding: 15px;
+}
+
+.pageSection .pricelist table tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
 
 /*----- GOOGLE MAP AND CONTACT INFO -----*/
@@ -231,13 +293,13 @@ header nav img {
 }
 
 .googleMap .contactInfo h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: white;
     padding-left: 20px;
 }
 
 .googleMap .contactInfo p {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     color: white;
     padding-left: 20px;
 }
@@ -417,10 +479,15 @@ footer .socialNetworks a {
     .googleMap .contactInfo p {
         font-size: 1.5rem;
     }
-
 }
 
 @media (max-width: 768px) {
+
+    /*----- TELEPHONE -----*/
+    .telephone {
+        display: inline-block;
+    }
+    
 
     /*----- MAIN SECTION -----*/
 
@@ -438,7 +505,7 @@ footer .socialNetworks a {
     }
     
     .secondarySection .services {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         padding: 50px;
     }
 
@@ -488,4 +555,44 @@ footer .socialNetworks a {
         margin-left: 20px;
     }
 
+    .pageSection .pricelist table{
+        font-size: 1.2rem;
+        width: 100%;
+    }
+
 }
+
+
+@media (max-width: 480px) {
+        /*----- PAGE SECTION -----*/
+
+        .pageSection article {
+            width: 90%;
+        }
+        
+        .pageSection article h2 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .pageSection .gallery h3{
+            font-size: 1.5rem;
+        }
+    
+        .pageSection .gallery .images{
+            flex-direction: column;
+        }
+    
+        .pageSection .gallery img {
+            height: 300px;
+            width: 100%;
+            margin-left: 5px;
+            margin-bottom: 5px;
+        }
+
+        .pageSection .pricelist table{
+            font-size: 1.2rem;
+            width: 100%;
+        }
+    }

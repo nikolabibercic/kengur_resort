@@ -4,6 +4,7 @@ var btnBars = document.getElementById('btnBars');
 var meniHeader = document.querySelectorAll('.meniHeader');
 var nav1 = document.getElementById('nav1');
 var carousel = document.getElementById('carousel');
+var aboutUs = document.getElementById('aboutUs');
 
 var headerImgs = [];
 
@@ -15,30 +16,20 @@ var pageName = pageArray[pageArray.length-1];
 //U zavisnosti od strane punim u niz headerImgs razlicite slike
 if(pageName === 'index.php'){
     headerImgs = ['img/header1.jpg','img/header2.jpg','img/header3.jpg','img/header4.jpg','img/header5.jpg','img/header6.jpg'];
-}
-
-if(pageName === 'contact.php'){
+}else if(pageName === 'contact.php'){
     headerImgs = ['img/header1.jpg','img/header2.jpg','img/header3.jpg','img/header4.jpg','img/header5.jpg','img/header6.jpg'];
-}
-
-if(pageName === 'bazen.php'){
+}else if(pageName === 'bazen.php'){
     headerImgs = ['img/bazen2.jpg','img/bazen3.jpg','img/bazen4.jpg','img/bazen5.jpg','img/bazen6.jpg','img/bazen7.jpg'];
-}
-
-if(pageName === 'decijaIgraonica.php'){
+}else if(pageName === 'decijaIgraonica.php'){
     headerImgs = ['img/decijaIgraonica1.jpg','img/decijaIgraonica2.jpg','img/decijaIgraonica3.jpg','img/decijaIgraonica4.jpg'];
-}
-
-if(pageName === 'restoran.php'){
+}else if(pageName === 'restoran.php'){
     headerImgs = ['img/restoran1.jpg','img/restoran2.jpg'];
-}
-
-if(pageName === 'salaZaProslave.php'){
+}else if(pageName === 'salaZaProslave.php'){
     headerImgs = ['img/salaZaProslave1.jpg'];
-}
-
-if(pageName === 'sobeIApartmani.php'){
+}else if(pageName === 'sobeIApartmani.php'){
     headerImgs = ['img/soba2.jpg','img/soba3.jpg','img/soba4.jpg','img/soba5.jpg','img/soba7.jpg'];
+}else {
+    headerImgs = ['img/header1.jpg','img/header2.jpg','img/header3.jpg','img/header4.jpg','img/header5.jpg','img/header6.jpg'];
 }
 
 //Kreiranje button elemenata za carousel
@@ -94,11 +85,13 @@ btnBars.addEventListener('click',() => {
 
     for(i=0;i<meniHeader.length;i++){
         if(meniHeader[i].style.display === 'flex'){
-            meniHeader[i].style.display = 'none'
-            nav1.style.marginBottom = '0px'
+            meniHeader[i].style.display = 'none';
+            nav1.style.marginBottom = '0px';
+            aboutUs.style.display = 'block';
         }else{
             meniHeader[i].style.display = 'flex';
-            nav1.style.marginBottom = '20px'
+            nav1.style.marginBottom = '20px'; 
+            aboutUs.style.display = 'none';
         }
     }
 
