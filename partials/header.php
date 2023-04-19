@@ -50,7 +50,7 @@
             if($_SERVER['PHP_SELF']==='/kengur_resort/index.php') {
                 echo '<div class="aboutUs" id="aboutUs">';
                     echo '<h1>Kengur resort</h1>';
-                    echo '<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis facilis, fugiat tenetur fugit dolores eum. Nulla exercitationem amet vitae doloribus in doloremque delectus voluptatibus molestiae reiciendis. Saepe fugit nihil magnam debitis quod, repellat ullam? Totam magnam sapiente dolore vel ex.</p>';
+                    echo '<p>Kombinujući zadivljujuće okruženje i ljubazno osoblje „Kengur resort“ nudi bazene, smeštaj, sale za proslavu, restoran i dečiju igraonicu za odmor, opuštanje i predah. Naš kompleks se nalazi u mirnom delu Zemuna, samo 7km od centra Beograda, sa odličnom povezanošću ka najznačajnim turističkim aktrakcijama. Nudimo vam različite mogućnosti za relaksaciju i druženje, uz nezaboravan provod.</p>';
                 echo '</div> ';
             }; 
         ?>

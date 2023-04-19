@@ -1,7 +1,13 @@
 <section class="pageSection">
     <article>
         <h2>Restoran</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ratione quo similique culpa doloribus error ducimus soluta nostrum aliquid! Provident, nisi. Voluptatem, vero repellat! Sed impedit, corporis neque sint expedita deleniti magnam accusamus sequi temporibus, in facere? Numquam sunt, molestiae tenetur harum dolores sed in minima, ullam doloremque veniam expedita, corporis laborum velit incidunt asperiores unde. Ex pariatur quisquam suscipit itaque dolores sit exercitationem enim ea asperiores quidem. Reprehenderit nobis consectetur tempora. Reiciendis modi impedit voluptates fugiat. Ducimus quos, quo aliquid, maiores sapiente labore dicta quas harum hic, facere earum tempore magnam dolore modi ullam ut pariatur deleniti. Doloribus, at?</p>
+        <p>U prijatnom ambijentu restorana "Kengur" nudimo vam jela nacionalne kuhinje i bogato odabranu kartu domaćih i stranih vina kao i ostalih alkoholnih pića. Sam enterijer kompleksa predstavlja spoj tradicionalnog i modernog u kome preovlađuju palete toplih boja. Naš restoran vredi posetiti zbog vrhunskog menija, svežh namirnica i profesionalno obučenih kuvara za pripremu različitih jela. Prijatno okruženje, uslužni zaposleni i kvalitetna hrana nude vam mogućnost za uživanje uz vodeni svet. Bilo da tražite prijatnu atmosferu za ručak, prirodno okruženje za druženje sa porodicom i prijateljima ili posle bazena obezbedićemo visok nivo usluge i dobar ugođaj. Doživite raznovrsnu kuhinju u nenametljivom luksuzu svedenih linija.</p>
+        <div class="services">      
+            <i class="fa-solid fa-champagne-glasses"></i>
+            <i class="fa-solid fa-utensils"></i>
+            <i class="fa-solid fa-wifi"></i>
+            <i class="fa-solid fa-square-parking"></i>
+        </div>
     </article>
      <div class="gallery">
         <h3>Galerija slika</h3>

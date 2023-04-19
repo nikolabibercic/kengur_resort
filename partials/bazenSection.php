@@ -1,7 +1,13 @@
 <section class="pageSection">
     <article>
         <h2>Bazen</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ratione quo similique culpa doloribus error ducimus soluta nostrum aliquid! Provident, nisi. Voluptatem, vero repellat! Sed impedit, corporis neque sint expedita deleniti magnam accusamus sequi temporibus, in facere? Numquam sunt, molestiae tenetur harum dolores sed in minima, ullam doloremque veniam expedita, corporis laborum velit incidunt asperiores unde. Ex pariatur quisquam suscipit itaque dolores sit exercitationem enim ea asperiores quidem. Reprehenderit nobis consectetur tempora. Reiciendis modi impedit voluptates fugiat. Ducimus quos, quo aliquid, maiores sapiente labore dicta quas harum hic, facere earum tempore magnam dolore modi ullam ut pariatur deleniti. Doloribus, at?</p>
+        <p>U okviru otvorenog kompleksa „Kengur resort“ nalaze se 2 velika bazena i bazen za decu, kao zanimljivi koncept namenjen i najmlađim posetiocima. U vodenoj oazi našeg rizorta glavnu reč imaju odmor i zabava. Besplatne ležaljke i suncobrani kao i natkriveni paviljoni pomoći će vam da se sklonite od sunca i odmorite se od kupanja, a za ručak i popodnevnu užinu zavirite u ponudu restorana na kupalištu. Opuštanje dobija novo značenje u našim bazenima. Dizajnirani su da pozovu goste u prijatnu i spokojnu atmosferu, istovremeno obezbeđujući razonodu i rekreaciju. Dubina i struktura bazena za decu projektovana je za bezbednu igru uz nezaboravan dečiji provod. Naši gosti nisu samo deca, već i odrasli koji sa nestrpljenjem dolaze na ovo mesto. Sve je dizajnirano tako da naši klijenti ostave po strani svakodnevne brige i posvete se užitku. Pored toga, dokazno je da je plivanje aktivnost koje pozitivno utiče na mentalno i fizičko zdravlje. Plivanje podstiče razvoj djece, doprinosi imunitetu, jača mišićne strukture, povećava pokretljivost, deluje na koordinaciju pokreta te poboljšava opšte zdravlje.</p>
+        <div class="services">
+            <i class="fa-sharp fa-solid fa-person-swimming"></i>
+            <i class="fa-solid fa-wifi"></i>
+            <i class="fa-solid fa-martini-glass"></i>
+            <i class="fa-solid fa-square-parking"></i>
+        </div>
     </article>
      <div class="gallery">
         <h3>Galerija slika</h3>

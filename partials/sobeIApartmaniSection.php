@@ -1,7 +1,13 @@
 <section class="pageSection">
     <article>
         <h2>Sobe i apartmani</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ratione quo similique culpa doloribus error ducimus soluta nostrum aliquid! Provident, nisi. Voluptatem, vero repellat! Sed impedit, corporis neque sint expedita deleniti magnam accusamus sequi temporibus, in facere? Numquam sunt, molestiae tenetur harum dolores sed in minima, ullam doloremque veniam expedita, corporis laborum velit incidunt asperiores unde. Ex pariatur quisquam suscipit itaque dolores sit exercitationem enim ea asperiores quidem. Reprehenderit nobis consectetur tempora. Reiciendis modi impedit voluptates fugiat. Ducimus quos, quo aliquid, maiores sapiente labore dicta quas harum hic, facere earum tempore magnam dolore modi ullam ut pariatur deleniti. Doloribus, at?</p>
+        <p>U okviru „Kengur resorta“ nalaze se i sobe i apartmani, koji su izgrađeni da zadovolje vaše potrebe da se osvežite i opustite u luksuznom okruženju. Sobe i apartmani su dizajnirani tako da obezbede komfor i udobnost kao sastavni deo iskustva naših gostiju. Moderno opremljene sobe i apartmani se smatraju ugodnim utočištem daleko od stresa i užurbanosti grada. Naše smeštajne jedinice namenjene su svima onima kojima su opuštajući i uredan prostor, blizina glavnih saobraćajnica, vlastiti mir i spokoj prioriteti prilikom odabira soba i apartmana. U zavisnosti od potreba i zahteva naših gostiju možemo da ponudimo dvokrevetne, trokorevetne, četvoretkretvne sobe kao i apartman prilagođen kako parovima, porodicama sa decom tako i svima onima koji se odluče za jedinstven odmor u našem rizortu. Svaka soba i apartman poseduje zasebno kupatilo, Wi-fi konekciju sa internetom i TV uređaj, a obezbeđen je i besplatan parking.</p>
+        <div class="services">
+            <i class="fa-solid fa-wifi"></i>
+            <i class="fa-sharp fa-solid fa-tv"></i>
+            <i class="fa-solid fa-martini-glass"></i>
+            <i class="fa-solid fa-square-parking"></i>
+        </div>    
     </article>
      <div class="gallery">
         <h3>Galerija slika</h3>

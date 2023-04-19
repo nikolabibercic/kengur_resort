@@ -1,7 +1,12 @@
 <section class="pageSection">
     <article>
         <h2>Dečija igraonica</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ratione quo similique culpa doloribus error ducimus soluta nostrum aliquid! Provident, nisi. Voluptatem, vero repellat! Sed impedit, corporis neque sint expedita deleniti magnam accusamus sequi temporibus, in facere? Numquam sunt, molestiae tenetur harum dolores sed in minima, ullam doloremque veniam expedita, corporis laborum velit incidunt asperiores unde. Ex pariatur quisquam suscipit itaque dolores sit exercitationem enim ea asperiores quidem. Reprehenderit nobis consectetur tempora. Reiciendis modi impedit voluptates fugiat. Ducimus quos, quo aliquid, maiores sapiente labore dicta quas harum hic, facere earum tempore magnam dolore modi ullam ut pariatur deleniti. Doloribus, at?</p>
+        <p>Za najmlađe posetioce osmislili smo dečiju igraonicu sa kvalitetnim i atraktivnim sadržajem, uz ispunjenje najviših bezbednosnih standarda. Dan proveden u našoj igraoici pružiće deci nezaboravan doživljaj, a roditeljima mogućnost za trenuttke opuštanja. Igraonica je dizajnirana tako da veselim i radosnim bojama doprinese prijatnom boravku dece. Dečije igraonica je odlično mesto za decu da razviju svoje fizičke, emocionalne, društvene i maštovite veštine. Prostor je predviđen za svu decu raspoloženu za različite aktivnosti i avanture u čarobnom svetu igre. Uživajte u razigranoj i živahnoj atsmosferi sigurnog i čistog objekta.</p>
+        <div class="services">      
+            <i class="fa-sharp fa-solid fa-cake-candles"></i>
+            <i class="fa-solid fa-wifi"></i>
+            <i class="fa-solid fa-square-parking"></i>  
+        </div>    
     </article>
      <div class="gallery">
         <h3>Galerija slika</h3>
