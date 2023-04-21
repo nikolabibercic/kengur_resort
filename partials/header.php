@@ -1,3 +1,8 @@
+<?php
+// Start the session
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="sr">
 <head>
@@ -8,25 +13,25 @@
     <link rel="stylesheet" href="style.css">
     <?php 
         //Dynamic title
-        if($_SERVER['PHP_SELF']==='/kengur_resort/index.php') {
+        if(substr($_SERVER['PHP_SELF'], strrpos($_SERVER['PHP_SELF'], '/') + 1)==='index.php') {
             echo '<title>Kengur Resort</title>';
         }; 
-        if($_SERVER['PHP_SELF']==='/kengur_resort/bazen.php') {
+        if(substr($_SERVER['PHP_SELF'], strrpos($_SERVER['PHP_SELF'], '/') + 1)==='bazen.php') {
             echo '<title>Bazen</title>';
         }; 
-        if($_SERVER['PHP_SELF']==='/kengur_resort/contact.php') {
+        if(substr($_SERVER['PHP_SELF'], strrpos($_SERVER['PHP_SELF'], '/') + 1)==='contact.php') {
             echo '<title>Kontakt</title>';
         }; 
-        if($_SERVER['PHP_SELF']==='/kengur_resort/decijaIgraonica.php') {
+        if(substr($_SERVER['PHP_SELF'], strrpos($_SERVER['PHP_SELF'], '/') + 1)==='decijaIgraonica.php') {
             echo '<title>Dečija igraonica</title>';
         }; 
-        if($_SERVER['PHP_SELF']==='/kengur_resort/restoran.php') {
+        if(substr($_SERVER['PHP_SELF'], strrpos($_SERVER['PHP_SELF'], '/') + 1)==='restoran.php') {
             echo '<title>Restoran</title>';
         }; 
-        if($_SERVER['PHP_SELF']==='/kengur_resort/salaZaProslave.php') {
+        if(substr($_SERVER['PHP_SELF'], strrpos($_SERVER['PHP_SELF'], '/') + 1)==='salaZaProslave.php') {
             echo '<title>Sala za proslave</title>';
         }; 
-        if($_SERVER['PHP_SELF']==='/kengur_resort/sobeIApartmani.php') {
+        if(substr($_SERVER['PHP_SELF'], strrpos($_SERVER['PHP_SELF'], '/') + 1)==='sobeIApartmani.php') {
             echo '<title>Sobe i apartmani</title>';
         }; 
     ?>
@@ -42,12 +47,24 @@
             <a class="meniHeader" href="sobeIApartmani.php">Sobe i apartmani</a>
             <a class="meniHeader" href="salaZaProslave.php">Sala za proslave</a>
             <a class="meniHeader" href="bazen.php">Bazen</a>
-            <a class="meniHeader" href="restoran.php">Restoran</a>
+            <?php if($_SESSION["language"]=="eng"): ?>
+                <a class="meniHeader" href="restoran.php">Restaurant</a>
+            <?php else: ?>
+                <a class="meniHeader" href="restoran.php">Restoran</a>
+            <?php endif; ?>
             <a class="meniHeader" href="decijaIgraonica.php">Dečija igraonica</a>
         </nav>
 
+        <div class="languages">
+            <a href="controler/language.php?languageType=srb">SRB</a>
+            <a href="controler/language.php?languageType=eng">ENG</a>
+        </div>
         <?php
-            if($_SERVER['PHP_SELF']==='/kengur_resort/index.php') {
+        if(isset($_SESSION["language"])){echo $_SESSION["language"];}else {echo 'Nema sessiona';};
+        echo substr($_SERVER['PHP_SELF'], strrpos($_SERVER['PHP_SELF'], '/') + 1);
+        ?>
+        <?php
+            if(substr($_SERVER['PHP_SELF'], strrpos($_SERVER['PHP_SELF'], '/') + 1)==='index.php') {
                 echo '<div class="aboutUs" id="aboutUs">';
                     echo '<h1>Kengur resort</h1>';
                     echo '<p>Kombinujući zadivljujuće okruženje i ljubazno osoblje „Kengur resort“ nudi bazene, smeštaj, sale za proslavu, restoran i dečiju igraonicu za odmor, opuštanje i predah. Naš kompleks se nalazi u mirnom delu Zemuna, samo 7km od centra Beograda, sa odličnom povezanošću ka najznačajnim turističkim aktrakcijama. Nudimo vam različite mogućnosti za relaksaciju i druženje, uz nezaboravan provod.</p>';
