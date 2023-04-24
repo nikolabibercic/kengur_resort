@@ -343,6 +343,12 @@ header nav img {
     padding-left: 20px;
 }
 
+.googleMap .contactInfo p a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
 /*----- FOOTER -----*/
 
 footer {
@@ -518,6 +524,12 @@ footer .socialNetworks a {
     .googleMap .contactInfo p {
         font-size: 1.5rem;
     }
+
+    .googleMap .contactInfo p a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -575,8 +587,11 @@ footer .socialNetworks a {
     .googleMap .contactInfo p {
         font-size: 1.2rem;
     }
-
     
+    .googleMap .contactInfo p a {
+        font-size: 1.2rem;
+    }
+
     /*----- FOOTER -----*/
 
     footer .logo {

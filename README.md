@@ -10,9 +10,5 @@ Za uraditi:
 6. Engleski/Srpski tekst
 
 Pitanja za Kengur Resort:
-1. Razlika između restorana i sale za proslavu
 2. Linkovi za face,instagram i booking
-3. Broj telefona
-4. Mejl adresa koja će biti na sajtu
-5. Eventualno još slika
 6. Cenovnike za svaku uslugu
