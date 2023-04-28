@@ -227,6 +227,12 @@ header nav img {
     text-align: justify;
 }
 
+.pageSection article p a {
+    text-decoration: none;
+    color: #0075db;
+    font-weight: 800;
+}
+
 .pageSection .gallery {
     display: flex;
     flex-direction: column;
@@ -399,6 +405,38 @@ header nav img {
     text-decoration: none;
     color: white;
     font-size: 1.5rem;
+}
+
+/*----- HALLS GALLERY -----*/
+
+.hallGallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.hallGallery h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #484848;
+}
+
+.imgHolder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.imgHolder img {
+    width: 32%;
+    margin-bottom: 15px;
 }
 
 /*----- FOOTER -----*/
@@ -588,6 +626,10 @@ footer .socialNetworks a {
         color: white;
         font-size: 1.5rem;
     }
+    
+    .imgHolder img {
+        width: 48%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -654,6 +696,16 @@ footer .socialNetworks a {
         width: 80%;
     }
 
+    .imgHolder {
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+    }
+    
+    .imgHolder img {
+        width: 100%;
+    }
+
     /*----- GOOGLE MAP AND CONTACT INFO -----*/
 
     .googleMap .contactInfo h2 {
@@ -703,6 +755,16 @@ footer .socialNetworks a {
         margin-left: 20px;
     }
 
+    .imgHolder {
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+    }
+    
+    .imgHolder img {
+        width: 100%;
+    }
+
 }
 
 
@@ -750,6 +812,16 @@ footer .socialNetworks a {
 
         .priceListDetails {
             width: 90%;
+        }
+
+        .imgHolder {
+            flex-direction: column;
+            justify-content: center;
+            width: 90%;
+        }
+        
+        .imgHolder img {
+            width: 100%;
         }
 
     }
