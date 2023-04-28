@@ -19,29 +19,6 @@
                 <img src="img/salaZaProslave1.jpg" alt="Sala za proslave">
             </div>
         </div>
-        <article class="pricelist">
-            <h3>Pricelist</h3>
-            <div>
-                <table>
-                    <tr>
-                        <th></th>
-                        <th>Cena</th>
-                    </tr>
-                    <tr>
-                        <td>Meni 1</td>
-                        <td>1000 rsd</td>
-                    </tr>
-                    <tr>
-                        <td>Meni 2</td>
-                        <td>2000 rsd</td>
-                    </tr>
-                    <tr>
-                        <td>Meni 3</td>
-                        <td>3000 rsd</td>
-                    </tr>
-                </table>
-            </div>
-        </article>
     </section>
 
 <?php else: ?>
@@ -63,29 +40,6 @@
                 <img src="img/salaZaProslave1.jpg" alt="Sala za proslave">
             </div>
         </div>
-        <article class="pricelist">
-            <h3>Cenovnik</h3>
-            <div>
-                <table>
-                    <tr>
-                        <th></th>
-                        <th>Cena</th>
-                    </tr>
-                    <tr>
-                        <td>Meni 1</td>
-                        <td>1000 rsd</td>
-                    </tr>
-                    <tr>
-                        <td>Meni 2</td>
-                        <td>2000 rsd</td>
-                    </tr>
-                    <tr>
-                        <td>Meni 3</td>
-                        <td>3000 rsd</td>
-                    </tr>
-                </table>
-            </div>
-        </article>
     </section>   
 
 <?php endif; ?>

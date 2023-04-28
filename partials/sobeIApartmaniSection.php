@@ -27,25 +27,6 @@
                 <img src="img/soba7.jpg" alt="Sobe i apartmani">
             </div>
         </div>
-        <article class="pricelist">
-            <h3>Pricelist</h3>
-            <div>
-                <table>
-                    <tr>
-                        <th></th>
-                        <th>Cena</th>
-                    </tr>
-                    <tr>
-                        <td>Jednokrevetna</td>
-                        <td>1000 rsd</td>
-                    </tr>
-                    <tr>
-                        <td>Dvokrevetna</td>
-                        <td>2000 rsd</td>
-                    </tr>
-                </table>
-            </div>
-        </article>
     </section>
 
 <?php else: ?>
@@ -72,25 +53,6 @@
                 <img src="img/soba7.jpg" alt="Sobe i apartmani">
             </div>
         </div>
-        <article class="pricelist">
-            <h3>Cenovnik</h3>
-            <div>
-                <table>
-                    <tr>
-                        <th></th>
-                        <th>Cena</th>
-                    </tr>
-                    <tr>
-                        <td>Jednokrevetna</td>
-                        <td>1000 rsd</td>
-                    </tr>
-                    <tr>
-                        <td>Dvokrevetna</td>
-                        <td>2000 rsd</td>
-                    </tr>
-                </table>
-            </div>
-        </article>
     </section>
     
 <?php endif; ?>

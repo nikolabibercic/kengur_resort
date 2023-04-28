@@ -24,33 +24,6 @@
                 <img src="img/bazen7.jpg" alt="bazen">
             </div>
         </div>
-        <article class="pricelist">
-            <h3>Pricelist</h3>
-            <div>
-                <table>
-                    <tr>
-                        <th>Ulaznica</th>
-                        <th>Cena</th>
-                    </tr>
-                    <tr>
-                        <td>Individualna</td>
-                        <td>1000 rsd</td>
-                    </tr>
-                    <tr>
-                        <td>Porodična</td>
-                        <td>2000 rsd</td>
-                    </tr>
-                    <tr>
-                        <td>Grupna</td>
-                        <td>3000 rsd</td>
-                    </tr>
-                    <tr>
-                        <td>Grupna</td>
-                        <td>3000 rsd</td>
-                    </tr>
-                </table>
-            </div>
-        </article>
     </section>
 
 <?php else: ?>
@@ -58,7 +31,7 @@
     <section class="pageSection">
         <article>
             <h2>Bazen</h2>
-            <p>U okviru otvorenog kompleksa „Kengur resort“ nalaze se 2 velika bazena i bazen za decu, kao zanimljivi koncept namenjen i najmlađim posetiocima. U vodenoj oazi našeg rizorta glavnu reč imaju odmor i zabava. Besplatne ležaljke i suncobrani kao i natkriveni paviljoni pomoći će vam da se sklonite od sunca i odmorite se od kupanja, a za ručak i popodnevnu užinu zavirite u ponudu restorana na kupalištu. Opuštanje dobija novo značenje u našim bazenima. Dizajnirani su da pozovu goste u prijatnu i spokojnu atmosferu, istovremeno obezbeđujući razonodu i rekreaciju. Dubina i struktura bazena za decu projektovana je za bezbednu igru uz nezaboravan dečiji provod. Naši gosti nisu samo deca, već i odrasli koji sa nestrpljenjem dolaze na ovo mesto. Sve je dizajnirano tako da naši klijenti ostave po strani svakodnevne brige i posvete se užitku. Pored toga, dokazno je da je plivanje aktivnost koje pozitivno utiče na mentalno i fizičko zdravlje. Plivanje podstiče razvoj djece, doprinosi imunitetu, jača mišićne strukture, povećava pokretljivost, deluje na koordinaciju pokreta te poboljšava opšte zdravlje.</p>
+            <p>U okviru otvorenog kompleksa „Kengur resort“ nalaze se 2 velika bazena i bazen za decu, kao zanimljivi koncept namenjen i najmlađim posetiocima. U vodenoj oazi našeg rizorta glavnu reč imaju odmor i zabava. Besplatne ležaljke i suncobrani kao i natkriveni paviljoni pomoći će vam da se sklonite od sunca i odmorite se od kupanja, a za ručak i popodnevnu užinu zavirite u ponudu restorana na kupalištu. Opuštanje dobija novo značenje u našim bazenima. Dizajnirani su da pozovu goste u prijatnu i spokojnu atmosferu, istovremeno obezbeđujući razonodu i rekreaciju. Dubina i struktura bazena za decu projektovana je za bezbednu igru uz nezaboravan dečiji provod. Naši gosti nisu samo deca, već i odrasli koji sa nestrpljenjem dolaze na ovo mesto. Sve je dizajnirano tako da naši klijenti ostave po strani svakodnevne brige i posvete se užitku. Pored toga, dokazno je da je plivanje aktivnost koje pozitivno utiče na mentalno i fizičko zdravlje. Plivanje podstiče razvoj djece, doprinosi imunitetu, jača mišićne strukture, povećava pokretljivost, deluje na koordinaciju pokreta te poboljšava opšte zdravlje.<br><b>Radno vreme bazena je od 10 do 20h svakog dana.</b><br><b>Za decu do 4 godine ulaz je besplatan.</b></p>
             <div class="services">
                 <i class="fa-sharp fa-solid fa-person-swimming"></i>
                 <i class="fa-solid fa-wifi"></i>
@@ -78,33 +51,6 @@
                 <img src="img/bazen7.jpg" alt="bazen">
             </div>
         </div>
-        <article class="pricelist">
-            <h3>Cenovnik</h3>
-            <div>
-                <table>
-                    <tr>
-                        <th>Ulaznica</th>
-                        <th>Cena</th>
-                    </tr>
-                    <tr>
-                        <td>Individualna</td>
-                        <td>1000 rsd</td>
-                    </tr>
-                    <tr>
-                        <td>Porodična</td>
-                        <td>2000 rsd</td>
-                    </tr>
-                    <tr>
-                        <td>Grupna</td>
-                        <td>3000 rsd</td>
-                    </tr>
-                    <tr>
-                        <td>Grupna</td>
-                        <td>3000 rsd</td>
-                    </tr>
-                </table>
-            </div>
-        </article>
     </section>
 
 <?php endif; ?>

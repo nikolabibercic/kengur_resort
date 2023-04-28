@@ -4,6 +4,8 @@
 
 <?php include 'partials/salaZaProslaveSection.php'; ?>
 
+<?php include 'partials/priceList.php'; ?>
+
 <?php include 'partials/googleMap.php'; ?>
 
 <?php include 'partials/footer.php'; ?>

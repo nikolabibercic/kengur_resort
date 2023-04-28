@@ -21,33 +21,7 @@
                 <img src="img/restoran2.jpg" alt="Restoran">
             </div>
         </div>
-        <article class="pricelist">
-            <h3>Pricelist</h3>
-            <div>
-                <table>
-                    <tr>
-                        <th>Roštilj</th>
-                        <th>Cena</th>
-                    </tr>
-                    <tr>
-                        <td>Ćevapi</td>
-                        <td>1000 rsd</td>
-                    </tr>
-                    <tr>
-                        <td>Pljeskavica</td>
-                        <td>2000 rsd</td>
-                    </tr>
-                    <tr>
-                        <td>Kobasice</td>
-                        <td>3000 rsd</td>
-                    </tr>
-                    <tr>
-                        <td>Sendvič</td>
-                        <td>3000 rsd</td>
-                    </tr>
-                </table>
-            </div>
-        </article>
+        
     </section>
 
 <?php else: ?>
@@ -70,33 +44,7 @@
                 <img src="img/restoran2.jpg" alt="Restoran">
             </div>
         </div>
-        <article class="pricelist">
-            <h3>Cenovnik</h3>
-            <div>
-                <table>
-                    <tr>
-                        <th>Roštilj</th>
-                        <th>Cena</th>
-                    </tr>
-                    <tr>
-                        <td>Ćevapi</td>
-                        <td>1000 rsd</td>
-                    </tr>
-                    <tr>
-                        <td>Pljeskavica</td>
-                        <td>2000 rsd</td>
-                    </tr>
-                    <tr>
-                        <td>Kobasice</td>
-                        <td>3000 rsd</td>
-                    </tr>
-                    <tr>
-                        <td>Sendvič</td>
-                        <td>3000 rsd</td>
-                    </tr>
-                </table>
-            </div>
-        </article>
+
     </section>
 
 <?php endif; ?>

@@ -24,29 +24,6 @@
                 <img src="img/decijaIgraonica4.jpg" alt="Dečija igraonica">
             </div>
         </div>
-        <article class="pricelist">
-            <h3>Pricelist</h3>
-            <div>
-                <table>
-                    <tr>
-                        <th></th>
-                        <th>Cena</th>
-                    </tr>
-                    <tr>
-                        <td>Sat vremena</td>
-                        <td>1000 rsd</td>
-                    </tr>
-                    <tr>
-                        <td>Dva sata</td>
-                        <td>2000 rsd</td>
-                    </tr>
-                    <tr>
-                        <td>Tri sada</td>
-                        <td>3000 rsd</td>
-                    </tr>
-                </table>
-            </div>
-        </article>
     </section>
 
 <?php else: ?>
@@ -70,29 +47,6 @@
                 <img src="img/decijaIgraonica4.jpg" alt="Dečija igraonica">
             </div>
         </div>
-        <article class="pricelist">
-            <h3>Cenovnik</h3>
-            <div>
-                <table>
-                    <tr>
-                        <th></th>
-                        <th>Cena</th>
-                    </tr>
-                    <tr>
-                        <td>Sat vremena</td>
-                        <td>1000 rsd</td>
-                    </tr>
-                    <tr>
-                        <td>Dva sata</td>
-                        <td>2000 rsd</td>
-                    </tr>
-                    <tr>
-                        <td>Tri sada</td>
-                        <td>3000 rsd</td>
-                    </tr>
-                </table>
-            </div>
-        </article>
     </section>
 
 <?php endif; ?>

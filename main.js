@@ -1,10 +1,10 @@
 var header = document.getElementById('header');
-
 var btnBars = document.getElementById('btnBars');
-var meniHeader = document.querySelectorAll('.meniHeader');
-var nav1 = document.getElementById('nav1');
 var carousel = document.getElementById('carousel');
-var aboutUs = document.getElementById('aboutUs');
+var btnJelovnik = document.getElementById('btnJelovnik');
+var btnKartaPica = document.getElementById('btnKartaPica');
+var btnBazen = document.getElementById('btnBazen');
+var btnBungalovi = document.getElementById('btnBungalovi');
 
 var headerImgs = [];
 
@@ -83,17 +83,85 @@ var carouselInterval = setInterval(function(){
 //Klikom na bars dugme radim hide ili display meni linkova ka stranicama sajta
 btnBars.addEventListener('click',() => {
 
+    var meniHeader = document.querySelectorAll('.meniHeader');
+    var nav1 = document.getElementById('nav1');
+    var aboutUs = document.getElementById('aboutUs');
+
     for(i=0;i<meniHeader.length;i++){
         if(meniHeader[i].style.display === 'flex'){
             meniHeader[i].style.display = 'none';
             nav1.style.marginBottom = '0px';
-            aboutUs.style.display = 'block';
+            if(aboutUs != null){
+                aboutUs.style.display = 'block';
+            }
+
+
         }else{
             meniHeader[i].style.display = 'flex';
             nav1.style.marginBottom = '20px'; 
-            aboutUs.style.display = 'none';
+            if(aboutUs != null){
+                aboutUs.style.display = 'none';
+            }
         }
     }
 
 });
 
+
+
+btnJelovnik.addEventListener('click',() => {
+
+    var jelovnik = document.getElementById('jelovnik');
+
+    if(jelovnik.style.display === 'flex'){
+        jelovnik.style.display = 'none';
+        btnJelovnik.innerText = '+ Jelovnik';
+    }else{
+        jelovnik.style.display = 'flex';    
+        btnJelovnik.innerText = '- Jelovnik'; 
+    }
+
+});
+
+btnKartaPica.addEventListener('click',() => {
+
+    var kartaPica = document.getElementById('kartaPica');
+
+    if(kartaPica.style.display === 'flex'){
+        kartaPica.style.display = 'none';
+        btnKartaPica.innerText = '+ Karta pića';
+    }else{
+        kartaPica.style.display = 'flex';     
+        btnKartaPica.innerText = '- Karta pića'; 
+    }
+
+});
+
+btnBazen.addEventListener('click',() => {
+
+    var bazen = document.getElementById('bazen');
+
+    if(bazen.style.display === 'flex'){
+        bazen.style.display = 'none';
+        btnBazen.innerText = '+ Bazen';
+    }else{
+        bazen.style.display = 'flex';     
+        btnBazen.innerText = '- Bazen'; 
+    }
+
+});
+
+
+btnBungalovi.addEventListener('click',() => {
+
+    var bungalovi = document.getElementById('bungalovi');
+
+    if(bungalovi.style.display === 'flex'){
+        bungalovi.style.display = 'none';
+        btnBungalovi.innerText = '+ Bungalovi';
+    }else{
+        bungalovi.style.display = 'flex';     
+        btnBungalovi.innerText = '- Bungalovi'; 
+    }
+
+});
