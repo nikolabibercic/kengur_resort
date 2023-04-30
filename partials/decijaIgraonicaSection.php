@@ -18,10 +18,10 @@
         <div class="gallery">
             <h3>Photo gallery</h3>
             <div class="images">
-                <img src="img/decijaIgraonica1.jpg" alt="Dečija igraonica">
-                <img src="img/decijaIgraonica2.jpg" alt="Dečija igraonica">
-                <img src="img/decijaIgraonica3.jpg" alt="Dečija igraonica">
-                <img src="img/decijaIgraonica4.jpg" alt="Dečija igraonica">
+                <img class="imgItem" src="img/decijaIgraonica1.jpg" alt="Dečija igraonica">
+                <img class="imgItem" src="img/decijaIgraonica2.jpg" alt="Dečija igraonica">
+                <img class="imgItem" src="img/decijaIgraonica3.jpg" alt="Dečija igraonica">
+                <img class="imgItem" src="img/decijaIgraonica4.jpg" alt="Dečija igraonica">
             </div>
         </div>
     </section>
@@ -41,10 +41,10 @@
         <div class="gallery">
             <h3>Galerija slika</h3>
             <div class="images">
-                <img src="img/decijaIgraonica1.jpg" alt="Dečija igraonica">
-                <img src="img/decijaIgraonica2.jpg" alt="Dečija igraonica">
-                <img src="img/decijaIgraonica3.jpg" alt="Dečija igraonica">
-                <img src="img/decijaIgraonica4.jpg" alt="Dečija igraonica">
+                <img class="imgItem" src="img/decijaIgraonica1.jpg" alt="Dečija igraonica">
+                <img class="imgItem" src="img/decijaIgraonica2.jpg" alt="Dečija igraonica">
+                <img class="imgItem" src="img/decijaIgraonica3.jpg" alt="Dečija igraonica">
+                <img class="imgItem" src="img/decijaIgraonica4.jpg" alt="Dečija igraonica">
             </div>
         </div>
     </section>

@@ -15,13 +15,13 @@
         <div class="gallery">
             <h3>Photo gallery</h3>
             <div class="images">
-                <img src="img/bazen1.jpg" alt="bazen">
-                <img src="img/bazen2.jpg" alt="bazen">
-                <img src="img/bazen3.jpg" alt="bazen">
-                <img src="img/bazen4.jpg" alt="bazen">
-                <img src="img/bazen5.jpg" alt="bazen">
-                <img src="img/bazen6.jpg" alt="bazen">
-                <img src="img/bazen7.jpg" alt="bazen">
+                <img class="imgItem" src="img/bazen1.jpg" alt="bazen">
+                <img class="imgItem" src="img/bazen2.jpg" alt="bazen">
+                <img class="imgItem" src="img/bazen3.jpg" alt="bazen">
+                <img class="imgItem" src="img/bazen4.jpg" alt="bazen">
+                <img class="imgItem" src="img/bazen5.jpg" alt="bazen">
+                <img class="imgItem" src="img/bazen6.jpg" alt="bazen">
+                <img class="imgItem" src="img/bazen7.jpg" alt="bazen">
             </div>
         </div>
     </section>
@@ -42,13 +42,13 @@
         <div class="gallery">
             <h3>Galerija slika</h3>
             <div class="images">
-                <img src="img/bazen1.jpg" alt="bazen">
-                <img src="img/bazen2.jpg" alt="bazen">
-                <img src="img/bazen3.jpg" alt="bazen">
-                <img src="img/bazen4.jpg" alt="bazen">
-                <img src="img/bazen5.jpg" alt="bazen">
-                <img src="img/bazen6.jpg" alt="bazen">
-                <img src="img/bazen7.jpg" alt="bazen">
+                <img class="imgItem" src="img/bazen1.jpg" alt="bazen">
+                <img class="imgItem" src="img/bazen2.jpg" alt="bazen">
+                <img class="imgItem" src="img/bazen3.jpg" alt="bazen">
+                <img class="imgItem" src="img/bazen4.jpg" alt="bazen">
+                <img class="imgItem" src="img/bazen5.jpg" alt="bazen">
+                <img class="imgItem" src="img/bazen6.jpg" alt="bazen">
+                <img class="imgItem" src="img/bazen7.jpg" alt="bazen">
             </div>
         </div>
     </section>

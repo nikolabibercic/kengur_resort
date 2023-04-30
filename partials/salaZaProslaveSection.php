@@ -16,7 +16,7 @@
         <div class="gallery">
             <h3>Photo gallery</h3>
             <div class="images">
-                <img src="img/salaZaProslave1.jpg" alt="Sala za proslave">
+                <img class="imgItem" src="img/salaZaProslave1.jpg" alt="Sala za proslave">
             </div>
         </div>
     </section>
@@ -37,7 +37,7 @@
         <div class="gallery">
             <h3>Galerija slika</h3>
             <div class="images">
-                <img src="img/salaZaProslave1.jpg" alt="Sala za proslave">
+                <img class="imgItem" src="img/salaZaProslave1.jpg" alt="Sala za proslave">
             </div>
         </div>
     </section>   

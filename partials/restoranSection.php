@@ -17,8 +17,8 @@
         <div class="gallery">
             <h3>Photo gallery</h3>
             <div class="images">
-                <img src="img/restoran1.jpg" alt="Restoran">
-                <img src="img/restoran2.jpg" alt="Restoran">
+                <img class="imgItem" src="img/restoran1.jpg" alt="Restoran">
+                <img class="imgItem" src="img/restoran2.jpg" alt="Restoran">
             </div>
         </div>
         
@@ -40,8 +40,8 @@
         <div class="gallery">
             <h3>Galerija slika</h3>
             <div class="images">
-                <img src="img/restoran1.jpg" alt="Restoran">
-                <img src="img/restoran2.jpg" alt="Restoran">
+                <img class="imgItem" src="img/restoran1.jpg" alt="Restoran">
+                <img class="imgItem" src="img/restoran2.jpg" alt="Restoran">
             </div>
         </div>
 

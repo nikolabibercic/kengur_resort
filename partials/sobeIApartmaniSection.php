@@ -18,13 +18,13 @@
         </article>
         <div class="gallery">
             <h3>Photo gallery</h3>
-            <div class="images">
-                <img src="img/soba1.jpg" alt="Sobe i apartmani">
-                <img src="img/soba2.jpg" alt="Sobe i apartmani">
-                <img src="img/soba3.jpg" alt="Sobe i apartmani">
-                <img src="img/soba4.jpg" alt="Sobe i apartmani">
-                <img src="img/soba5.jpg" alt="Sobe i apartmani">
-                <img src="img/soba7.jpg" alt="Sobe i apartmani">
+            <div class="images" class="images">
+                <img class="imgItem" src="img/soba1.jpg" alt="Sobe i apartmani">
+                <img class="imgItem" src="img/soba2.jpg" alt="Sobe i apartmani">
+                <img class="imgItem" src="img/soba3.jpg" alt="Sobe i apartmani">
+                <img class="imgItem" src="img/soba4.jpg" alt="Sobe i apartmani">
+                <img class="imgItem" src="img/soba5.jpg" alt="Sobe i apartmani">
+                <img class="imgItem" src="img/soba7.jpg" alt="Sobe i apartmani">
             </div>
         </div>
     </section>
@@ -44,13 +44,13 @@
         </article>
         <div class="gallery">
             <h3>Galerija slika</h3>
-            <div class="images">
-                <img src="img/soba1.jpg" alt="Sobe i apartmani">
-                <img src="img/soba2.jpg" alt="Sobe i apartmani">
-                <img src="img/soba3.jpg" alt="Sobe i apartmani">
-                <img src="img/soba4.jpg" alt="Sobe i apartmani">
-                <img src="img/soba5.jpg" alt="Sobe i apartmani">
-                <img src="img/soba7.jpg" alt="Sobe i apartmani">
+            <div class="images" class="images">
+                <img class="imgItem" src="img/soba1.jpg" alt="Sobe i apartmani">
+                <img class="imgItem" src="img/soba2.jpg" alt="Sobe i apartmani">
+                <img class="imgItem" src="img/soba3.jpg" alt="Sobe i apartmani">
+                <img class="imgItem" src="img/soba4.jpg" alt="Sobe i apartmani">
+                <img class="imgItem" src="img/soba5.jpg" alt="Sobe i apartmani">
+                <img class="imgItem" src="img/soba7.jpg" alt="Sobe i apartmani">
             </div>
         </div>
     </section>

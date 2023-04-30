@@ -165,3 +165,56 @@ btnBungalovi.addEventListener('click',() => {
     }
 
 });
+
+
+var imgItem = document.querySelectorAll('.imgItem');
+
+imgItem.forEach((item,index)=>{
+    item.addEventListener('click',()=>{
+        //Na klik pojedinacne slike postavljam display flex na imgPopUp kako bi se videla jedva veca slika na ekranu
+        var imgPopUp = document.querySelector('.imgPopUp');
+        imgPopUp.style.display = 'flex';
+
+        //Uzimam src atribut slike na koju se kliknulu kako bi prikazao bas tu sliku
+        var imgPopUpItem = document.getElementById('imgPopUpItem');
+        imgPopUpItem.src = item.getAttribute('src');
+
+        var arrowLeft = document.getElementById('arrowLeft');
+        var arrowRight = document.getElementById('arrowRight');
+
+        var imgItems = document.querySelectorAll('.imgItem');
+        var counter = index;
+
+        console.log(counter);
+
+        arrowRight.addEventListener('click',()=>{
+            counter++;
+            if(counter > imgItems.length-1){
+                counter = 0;
+                imgPopUpItem.src = imgItems[counter].getAttribute('src');
+            }else{
+                imgPopUpItem.src = imgItems[counter].getAttribute('src');
+            }  
+            console.log(counter);
+        });
+
+        arrowLeft.addEventListener('click',()=>{
+            counter--;
+            if(counter < 0){
+                counter = imgItems.length-1;
+                imgPopUpItem.src = imgItems[counter].getAttribute('src');
+            }else{
+                imgPopUpItem.src = imgItems[counter].getAttribute('src');
+            }  
+            console.log(counter);
+        });
+
+        //Na dugme close vracam displace none na imgPopUp kako bi zatvorio otvorenu sliku
+        var btnClose = document.getElementById('btnClose');
+        btnClose.addEventListener('click',()=>{
+            var imgPopUp = document.querySelector('.imgPopUp');
+            imgPopUp.style.display = 'none';
+        });
+    });
+});
+
