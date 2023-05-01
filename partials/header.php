@@ -62,8 +62,14 @@ session_start();
         </nav>
 
         <div class="languages">
-            <a href="controler/language.php?languageType=srb">SRB</a>
-            <a href="controler/language.php?languageType=eng">ENG</a>
+            <?php 
+                $http = $_SERVER['PHP_SELF'];
+                //echo $http;
+                echo '<a href="controler/language.php?languageType=srb&http='.$http.'">SRB</a>';
+                echo '<a href="controler/language.php?languageType=eng&http='.$http.'">ENG</a>';
+            ?>
+            <!--<a href="controler/language.php?languageType=srb;http=">SRB</a>-->
+            <!--<a href="controler/language.php?languageType=eng;http=">ENG</a>-->
         </div>
 
         <?php

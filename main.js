@@ -25,7 +25,7 @@ if(pageName === 'index.php'){
 }else if(pageName === 'restoran.php'){
     headerImgs = ['img/restoran1.jpg','img/restoran2.jpg'];
 }else if(pageName === 'salaZaProslave.php'){
-    headerImgs = ['img/salaZaProslave1.jpg'];
+    headerImgs = ['img/salaZaProslave1.jpg','img/restoran1.jpg','img/restoran2.jpg'];
 }else if(pageName === 'sobeIApartmani.php'){
     headerImgs = ['img/soba2.jpg','img/soba3.jpg','img/soba4.jpg','img/soba5.jpg','img/soba7.jpg'];
 }else {
@@ -107,61 +107,71 @@ btnBars.addEventListener('click',() => {
 
 });
 
-
-
+//Klikom na opciju u jelovniku menja se + i - u smislu prikaza i sakrivanja menija
 btnJelovnik.addEventListener('click',() => {
 
     var jelovnik = document.getElementById('jelovnik');
 
     if(jelovnik.style.display === 'flex'){
         jelovnik.style.display = 'none';
-        btnJelovnik.innerText = '+ Jelovnik';
+        var word = btnJelovnik.innerText;
+        btnJelovnik.innerText = word.replace('- ','+ ');
     }else{
         jelovnik.style.display = 'flex';    
-        btnJelovnik.innerText = '- Jelovnik'; 
+        var word = btnJelovnik.innerText;
+        btnJelovnik.innerText = word.replace('+ ','- ');
     }
 
 });
 
+//Klikom na opciju u jelovniku menja se + i - u smislu prikaza i sakrivanja menija
 btnKartaPica.addEventListener('click',() => {
 
     var kartaPica = document.getElementById('kartaPica');
 
     if(kartaPica.style.display === 'flex'){
         kartaPica.style.display = 'none';
-        btnKartaPica.innerText = '+ Karta pića';
+        var word = btnKartaPica.innerText;
+        btnKartaPica.innerText = word.replace('- ','+ ');
     }else{
         kartaPica.style.display = 'flex';     
-        btnKartaPica.innerText = '- Karta pića'; 
+        var word = btnKartaPica.innerText;
+        btnKartaPica.innerText = word.replace('+ ','- ');
     }
 
 });
 
+//Klikom na opciju u jelovniku menja se + i - u smislu prikaza i sakrivanja menija
 btnBazen.addEventListener('click',() => {
 
     var bazen = document.getElementById('bazen');
 
     if(bazen.style.display === 'flex'){
         bazen.style.display = 'none';
-        btnBazen.innerText = '+ Bazen';
+        var word = btnBazen.innerText;
+        btnBazen.innerText = word.replace('- ','+ ');
     }else{
         bazen.style.display = 'flex';     
-        btnBazen.innerText = '- Bazen'; 
+        var word = btnBazen.innerText;
+        btnBazen.innerText = word.replace('+ ','- ');
     }
 
 });
 
 
+//Klikom na opciju u jelovniku menja se + i - u smislu prikaza i sakrivanja menija
 btnBungalovi.addEventListener('click',() => {
 
     var bungalovi = document.getElementById('bungalovi');
 
     if(bungalovi.style.display === 'flex'){
         bungalovi.style.display = 'none';
-        btnBungalovi.innerText = '+ Bungalovi';
+        var word = btnBungalovi.innerText;
+        btnBungalovi.innerText = word.replace('- ','+ ');
     }else{
         bungalovi.style.display = 'flex';     
-        btnBungalovi.innerText = '- Bungalovi'; 
+        var word = btnBungalovi.innerText;
+        btnBungalovi.innerText = word.replace('+ ','- ');
     }
 
 });
@@ -185,7 +195,7 @@ imgItem.forEach((item,index)=>{
         var imgItems = document.querySelectorAll('.imgItem');
         var counter = index;
 
-        console.log(counter);
+        //console.log(counter);
 
         arrowRight.addEventListener('click',()=>{
             counter++;
@@ -195,7 +205,7 @@ imgItem.forEach((item,index)=>{
             }else{
                 imgPopUpItem.src = imgItems[counter].getAttribute('src');
             }  
-            console.log(counter);
+            //console.log(counter);
         });
 
         arrowLeft.addEventListener('click',()=>{
@@ -206,7 +216,7 @@ imgItem.forEach((item,index)=>{
             }else{
                 imgPopUpItem.src = imgItems[counter].getAttribute('src');
             }  
-            console.log(counter);
+            //console.log(counter);
         });
 
         //Na dugme close vracam displace none na imgPopUp kako bi zatvorio otvorenu sliku

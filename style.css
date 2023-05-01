@@ -527,16 +527,17 @@ footer .socialNetworks a {
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.9);
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     display: none;
     cursor: pointer;
+
 }
 
 .imgPopUp img {
-    max-width: 50%;
-    max-height: 500px;
+    max-width: 500px;
+    max-height: 600px;
 }
 
 .imgPopUp .fa-xmark {
@@ -546,12 +547,24 @@ footer .socialNetworks a {
     width: 50px;
     height: 150px;
     color: white;
-    font-size: 50px;
+    font-size: 25px;
 }
 
 .fa-arrow-left,.fa-arrow-right {
     color: white;
     font-size: 50px;
+
+    font-weight: 800;
+}
+
+.arrows {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    position: absolute;
+    margin: 0 auto;
 }
 
 /*----------------------*/
@@ -874,6 +887,10 @@ footer .socialNetworks a {
 
         .imgPopUp img {
             width: 90%;
+        }
+
+        .fa-arrow-left,.fa-arrow-right {
+            font-size: 25px;
         }
 
     }
