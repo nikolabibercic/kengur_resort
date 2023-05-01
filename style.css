@@ -490,7 +490,7 @@ footer hr {
 footer .meni2 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 50%;
 }
@@ -508,10 +508,10 @@ footer .socialNetworks {
     padding-top: 20px;
     padding-bottom: 20px;
     cursor: pointer;
+    width: 100%;
 }
 
 footer .socialNetworks a {
-    margin-left: 50px;
     font-size: 3rem;
 }
 

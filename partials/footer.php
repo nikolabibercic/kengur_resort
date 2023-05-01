@@ -15,7 +15,7 @@
         </div>
         <hr>
         <div class="meni2">
-            <a href="contact.php"><i class="fa-solid fa-messages"></i></i>Contact</a>
+            <!--<a href="contact.php"><i class="fa-solid fa-messages"></i></i>Contact</a>-->
             <div class="socialNetworks">
                 <a href="#"><i class="fa-brands fa-facebook"></i></a>
                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -34,7 +34,7 @@
         </div>
         <hr>
         <div class="meni2">
-            <a href="contact.php"><i class="fa-solid fa-messages"></i></i>Kontakt</a>
+            <!--<a href="contact.php"><i class="fa-solid fa-messages"></i></i>Kontakt</a>-->
             <div class="socialNetworks">
                 <a href="https://www.facebook.com/pages/Kengur-Resort/447738281926745"><i class="fa-brands fa-facebook"></i></a>
                 <a href="https://www.instagram.com/kengurresort/?hl=sr"><i class="fa-brands fa-instagram"></i></a>
