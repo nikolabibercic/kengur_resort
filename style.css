@@ -613,9 +613,13 @@ footer .socialNetworks a {
 
     .aboutUs {
         width: 100%;
-        padding: 0px;
+        padding: 10px;
         left: 0px;
         bottom: 100px;
+    }
+
+    .aboutUs {
+        font-size: 0.9rem;
     }
 
     .aboutUs h1 {
