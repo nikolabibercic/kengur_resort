@@ -26,7 +26,7 @@
     <section class="pageSection">
         <article>
             <h2>Sale za proslave</h2>
-            <p>Kapacitet naših sala za zabave je do 150 sedećih mesta u <a href="sala1.php">sali 1</a> i do 250 sedećih mesta u <a href="sala2.php">sali 2</a> i pogodan je za razne vrste privatnih i korporativnih proslava. Idealna kombinacija različitih detalja u enterijeru prati savremene trendove u organizovanju događaja. Sala je predviđena za različita okupljanja, a naši zaposleni pomoći će vam da prostor prilagodite vašoj svetkovini. Bilo da organizujete rođendan, krštenje ili svadbu kod nas ćete imati dovoljno prostora i za ručavanje, igranje i komoditet. Sala za proslavu je pokrivena klimatizacionim i ventilacionim sistemom, a obezbeđen je i besplatan parking. Učinićemo sve da vaše najznačajnije trenutke pamtite i istinski uživate u našem prostoru.</p>
+            <p>Kapacitet naših sala za zabave je do 150 sedećih mesta u <a href="sala1.php">sali 1</a> i do 250 sedećih mesta u <a href="sala2.php">sali 2</a> i pogodan je za razne vrste privatnih i korporativnih proslava. Idealna kombinacija različitih detalja u enterijeru prati savremene trendove u organizovanju događaja. Sale su predviđene za različita okupljanja, a naši zaposleni pomoći će vam da prostor prilagodite vašoj svetkovini. Bilo da organizujete rođendan, krštenje ili svadbu, kod nas ćete imati dovoljno prostora i za ručavanje, igranje i komoditet. Sala za proslavu je pokrivena klimatizacionim i ventilacionim sistemom, a obezbeđen je i besplatan parking. Učinićemo sve da vaše najznačajnije trenutke pamtite i istinski uživate u našem prostoru.</p>
             <div class="services">
                 <i class="fa-solid fa-wifi"></i>
                 <i class="fa-solid fa-martini-glass"></i>
