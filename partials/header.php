@@ -47,13 +47,13 @@ session_start();
 
             <?php if(isset($_SESSION["language"]) and $_SESSION["language"]=="eng"): ?>
                 <a class="meniHeader" href="sobeIApartmani.php">Rooms/Suites</a>
-                <a class="meniHeader" href="salaZaProslave.php">Venues for celebration</a>
+                <a class="meniHeader" href="saleZaProslave.php">Venues for celebration</a>
                 <a class="meniHeader" href="bazen.php">Swiming pools</a>
                 <a class="meniHeader" href="restoran.php">Restaurant</a>
                 <a class="meniHeader" href="decijaIgraonica.php">Child playground</a>
             <?php else: ?>
                 <a class="meniHeader" href="sobeIApartmani.php">Sobe i apartmani</a>
-                <a class="meniHeader" href="salaZaProslave.php">Sala za proslave</a>
+                <a class="meniHeader" href="saleZaProslave.php">Sale za proslave</a>
                 <a class="meniHeader" href="bazen.php">Bazen</a>
                 <a class="meniHeader" href="restoran.php">Restoran</a>
                 <a class="meniHeader" href="decijaIgraonica.php">Dečija igraonica</a>

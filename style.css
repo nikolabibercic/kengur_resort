@@ -170,6 +170,14 @@ header nav img {
     text-align: justify;
 }
 
+.secondarySection a {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color:#484848;
+}
+
 .secondarySection h2 {
     font-size: 3rem;
     text-align: center;

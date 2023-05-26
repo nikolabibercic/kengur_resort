@@ -566,7 +566,7 @@
         <tr>
             <td id="td1">Work day</td>
             <td id="td2"></td>
-            <td id="td3">800</td>
+            <td id="td3">700</td>
         </tr>
         <tr>
             <td id="td1">Weekend</td>
@@ -576,7 +576,7 @@
         <tr>
             <td id="td1">Half-day workday (17-20h)</td>
             <td id="td2"></td>
-            <td id="td3">600</td>
+            <td id="td3">500</td>
         </tr>
         <tr>
             <td id="td1">Half-day weekend (17-20h)</td>
@@ -587,6 +587,17 @@
             <td id="td1">Children up to 4 years</td>
             <td id="td2"></td>
             <td id="td3">Free entry</td>
+        </tr>
+        <tr>
+            <td id="td1">Sunbeds and umbrellas</td>
+            <td id="td2"></td>
+            <td id="td3">Included in the price</td>
+        </tr>
+        <tr>
+            <td id="td1" colspan="3">Sunbeds and umbrellas are included in the price.</td>
+        </tr>
+        <tr>
+            <td id="td1" colspan="3">With purchased ticket, it is possible to enter and leave swimming pools during the whole day.</td>
         </tr>
     </table>
 </div>
@@ -1194,7 +1205,7 @@
             <tr>
                 <td id="td1">Radni dan</td>
                 <td id="td2"></td>
-                <td id="td3">800</td>
+                <td id="td3">700</td>
             </tr>
             <tr>
                 <td id="td1">Vikend</td>
@@ -1204,7 +1215,7 @@
             <tr>
                 <td id="td1">Poludnevni radni dan (17-20h)</td>
                 <td id="td2"></td>
-                <td id="td3">600</td>
+                <td id="td3">500</td>
             </tr>
             <tr>
                 <td id="td1">Poludnevni vikend (17-20h)</td>
@@ -1215,6 +1226,17 @@
                 <td id="td1">Deca do 4 godine</td>
                 <td id="td2"></td>
                 <td id="td3">Besplatan ulaz</td>
+            </tr>
+            <tr>
+                <td id="td1">Ležaljke i suncobrani</td>
+                <td id="td2"></td>
+                <td id="td3">Uključeni u cenu</td>
+            </tr>
+            <tr>
+                <td id="td1" colspan="3">Suncobrani i ležaljke su uključeni u cenu.</td>
+            </tr>
+            <tr>
+                <td id="td1" colspan="3">Sa kupljenom ulaznicom, moguće je ulaziti i izlaziti sa bazena tokom celog dana.</td>
             </tr>
         </table>
     </div>

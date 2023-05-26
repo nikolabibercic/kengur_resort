@@ -8,7 +8,7 @@
 
         <div class="meni">
             <a href="sobeIApartmani.php">Rooms/Suites</a>
-            <a href="salaZaProslave.php">Venues for celebration</a>
+            <a href="saleZaProslave.php">Venues for celebration</a>
             <a href="bazen.php">Swiming pools</a>
             <a href="restoran.php">Restaurant</a>
             <a href="decijaIgraonica.php">Child playground</a>      
@@ -27,7 +27,7 @@
 
             <div class="meni">
             <a href="sobeIApartmani.php">Sobe i apartmani</a>
-            <a href="salaZaProslave.php">Sala za proslave</a>
+            <a href="saleZaProslave.php">Sale za proslave</a>
             <a href="bazen.php">Bazen</a>
             <a href="restoran.php">Restoran</a>
             <a href="decijaIgraonica.php">Dečija igraonica</a>      
