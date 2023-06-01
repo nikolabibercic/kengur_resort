@@ -16,7 +16,11 @@
         <div class="gallery">
             <h3>Photo gallery</h3>
             <div class="images">
-                <img class="imgItem" src="img/salaZaProslave1.jpg" alt="Sala za proslave">
+            <img class="imgItem" src="img/sp1.jpg" alt="Sala za proslave">
+                <img class="imgItem" src="img/sp2.jpg" alt="Sala za proslave">
+                <img class="imgItem" src="img/sp3.jpg" alt="Sala za proslave">
+                <img class="imgItem" src="img/sp4.jpg" alt="Sala za proslave">
+                <img class="imgItem" src="img/sp5.jpg" alt="Sala za proslave">
             </div>
         </div>
     </section>
@@ -37,7 +41,11 @@
         <div class="gallery">
             <h3>Galerija slika</h3>
             <div class="images">
-                <img class="imgItem" src="img/salaZaProslave1.jpg" alt="Sala za proslave">
+                <img class="imgItem" src="img/sp1.jpg" alt="Sala za proslave">
+                <img class="imgItem" src="img/sp2.jpg" alt="Sala za proslave">
+                <img class="imgItem" src="img/sp3.jpg" alt="Sala za proslave">
+                <img class="imgItem" src="img/sp4.jpg" alt="Sala za proslave">
+                <img class="imgItem" src="img/sp5.jpg" alt="Sala za proslave">
             </div>
         </div>
     </section>   

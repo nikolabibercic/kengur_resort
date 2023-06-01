@@ -82,7 +82,7 @@ session_start();
                 }else {
                     echo '<div class="aboutUs" id="aboutUs">';
                         echo '<h1>Kengur resort</h1>';
-                        echo '<p>Kombinujući zadivljujuće okruženje i ljubazno osoblje „Kengur resort“ nudi bazene, smeštaj, sale za proslavu, restoran i dečiju igraonicu za odmor, opuštanje i predah. Naš kompleks se nalazi u mirnom delu Zemuna, samo 7km od centra Beograda, sa odličnom povezanošću ka najznačajnim turističkim aktrakcijama. Nudimo vam različite mogućnosti za relaksaciju i druženje, uz nezaboravan provod.</p>';
+                        echo '<p>Kombinujući zadivljujuće okruženje i ljubazno osoblje „Kengur resort“ nudi bazene, smeštaj, sale za proslavu, restoran i dečiju igraonicu za odmor, opuštanje i predah. Naš kompleks se nalazi u mirnom delu Zemuna, samo 7km od centra Beograda, sa odličnom povezanošću ka najznačajnim turističkim atrakcijama. Nudimo vam različite mogućnosti za relaksaciju i druženje, uz nezaboravan provod.</p>';
                     echo '</div> ';
                 }
             }; 

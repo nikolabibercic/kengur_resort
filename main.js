@@ -21,13 +21,13 @@ if(pageName === 'index.php'){
 }else if(pageName === 'bazen.php'){
     headerImgs = ['img/bazen2.jpg','img/bazen3.jpg','img/bazen4.jpg','img/bazen5.jpg','img/bazen6.jpg','img/bazen7.jpg'];
 }else if(pageName === 'decijaIgraonica.php'){
-    headerImgs = ['img/decijaIgraonica1.jpg','img/decijaIgraonica2.jpg','img/decijaIgraonica3.jpg','img/decijaIgraonica4.jpg'];
+    headerImgs = ['img/d1.jpg','img/d2.jpg','img/d3.jpg','img/d4.jpg'];
 }else if(pageName === 'restoran.php'){
     headerImgs = ['img/restoran1.jpg','img/restoran2.jpg'];
-}else if(pageName === 'salaZaProslave.php'){
-    headerImgs = ['img/salaZaProslave1.jpg','img/restoran1.jpg','img/restoran2.jpg'];
+}else if(pageName === 'saleZaProslave.php'){
+    headerImgs = ['img/sp1.jpg','img/sp2.jpg','img/sp3.jpg','img/sp4.jpg','img/sp5.jpg'];
 }else if(pageName === 'sobeIApartmani.php'){
-    headerImgs = ['img/soba2.jpg','img/soba3.jpg','img/soba4.jpg','img/soba5.jpg','img/soba7.jpg'];
+    headerImgs = ['img/s1.jpg','img/s2.jpg','img/s3.jpg','img/s4.jpg','img/s12.jpg'];
 }else {
     headerImgs = ['img/header1.jpg','img/header2.jpg','img/header3.jpg','img/header4.jpg','img/header5.jpg','img/header6.jpg'];
 }

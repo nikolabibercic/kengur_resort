@@ -34,17 +34,17 @@
     <table>
         <tr>
             <td id="td1">Chicken breast</td>
-            <td id="td2">220g</td>
+            <td id="td2">250g</td>
             <td id="td3">450</td>
         </tr>
         <tr>
             <td id="td1">Chicken leg</td>
-            <td id="td2">220g</td>
+            <td id="td2">250g</td>
             <td id="td3">450</td>
         </tr>
         <tr>
             <td id="td1">Hamburger</td>
-            <td id="td2">220g</td>
+            <td id="td2">250g</td>
             <td id="td3">400</td>
         </tr>
         <tr>
@@ -75,11 +75,11 @@
         <tr>
             <td id="td1">French fries</td>
             <td id="td2">150g</td>
-            <td id="td3">250</td>
+            <td id="td3">300</td>
         </tr>
         <tr>
             <td id="td1">Sesame chicken</td>
-            <td id="td2">220g</td>
+            <td id="td2">250g</td>
             <td id="td3">500</td>
         </tr>
     </table>
@@ -99,9 +99,27 @@
 
     <table>
         <tr>
+            <th colspan="3">Breakfast (is served up to 12pm)</th>
+        </tr>
+        <tr>
             <td id="td1">Sandwiches (kulen, sirlion steak, ham)</td>
             <td id="td2"></td>
-            <td id="td3">300</td>
+            <td id="td3">350</td>
+        </tr>
+        <tr>
+            <td id="td1">Toast sandwich</td>
+            <td id="td2"></td>
+            <td id="td3">400</td>
+        </tr>
+        <tr>
+            <td id="td1">Omelet with ham</td>
+            <td id="td2"></td>
+            <td id="td3">400</td>
+        </tr>
+        <tr>
+            <td id="td1">Kengur breakfast</td>
+            <td id="td2"></td>
+            <td id="td3">550</td>
         </tr>
     </table>
 </div>
@@ -673,17 +691,17 @@
         <table>
             <tr>
                 <td id="td1">Pileće belo</td>
-                <td id="td2">220g</td>
+                <td id="td2">250g</td>
                 <td id="td3">450</td>
             </tr>
             <tr>
                 <td id="td1">Pileći batak</td>
-                <td id="td2">220g</td>
+                <td id="td2">250g</td>
                 <td id="td3">450</td>
             </tr>
             <tr>
                 <td id="td1">Pljeskavica</td>
-                <td id="td2">220g</td>
+                <td id="td2">250g</td>
                 <td id="td3">400</td>
             </tr>
             <tr>
@@ -714,11 +732,11 @@
             <tr>
                 <td id="td1">Pomfrit</td>
                 <td id="td2">150g</td>
-                <td id="td3">250</td>
+                <td id="td3">300</td>
             </tr>
             <tr>
                 <td id="td1">Susam piletina</td>
-                <td id="td2">220g</td>
+                <td id="td2">250g</td>
                 <td id="td3">500</td>
             </tr>
         </table>
@@ -738,9 +756,27 @@
 
         <table>
             <tr>
+                <th colspan="3">Doručak (služi se do 12h)</th>
+            </tr>
+            <tr>
                 <td id="td1">Sendviči (kulen, pečenica, šunka)</td>
                 <td id="td2"></td>
-                <td id="td3">300</td>
+                <td id="td3">350</td>
+            </tr>
+            <tr>
+                <td id="td1">Tost sendvič</td>
+                <td id="td2"></td>
+                <td id="td3">400</td>
+            </tr>
+            <tr>
+                <td id="td1">Omlet sa šunkom</td>
+                <td id="td2"></td>
+                <td id="td3">400</td>
+            </tr>
+            <tr>
+                <td id="td1">Kengur doručak</td>
+                <td id="td2"></td>
+                <td id="td3">550</td>
             </tr>
         </table>
     </div>

@@ -18,10 +18,10 @@
         <div class="gallery">
             <h3>Photo gallery</h3>
             <div class="images">
-                <img class="imgItem" src="img/decijaIgraonica1.jpg" alt="Dečija igraonica">
-                <img class="imgItem" src="img/decijaIgraonica2.jpg" alt="Dečija igraonica">
-                <img class="imgItem" src="img/decijaIgraonica3.jpg" alt="Dečija igraonica">
-                <img class="imgItem" src="img/decijaIgraonica4.jpg" alt="Dečija igraonica">
+                <img class="imgItem" src="img/d1.jpg" alt="Dečija igraonica">
+                <img class="imgItem" src="img/d2.jpg" alt="Dečija igraonica">
+                <img class="imgItem" src="img/d3.jpg" alt="Dečija igraonica">
+                <img class="imgItem" src="img/d4.jpg" alt="Dečija igraonica">
             </div>
         </div>
     </section>
@@ -31,7 +31,7 @@
     <section class="pageSection">
         <article>
             <h2>Dečija igraonica</h2>
-            <p>Za najmlađe posetioce osmislili smo dečiju igraonicu sa kvalitetnim i atraktivnim sadržajem, uz ispunjenje najviših bezbednosnih standarda. Dan proveden u našoj igraoici pružiće deci nezaboravan doživljaj, a roditeljima mogućnost za trenutke opuštanja. Igraonica je dizajnirana tako da veselim i radosnim bojama doprinese prijatnom boravku dece. Dečija igraonica je odlično mesto za decu da razviju svoje fizičke, emocionalne, društvene i maštovite veštine. Prostor je predviđen za svu decu raspoloženu za različite aktivnosti i avanture u čarobnom svetu igre. Uživajte u razigranoj i živahnoj atsmosferi sigurnog i čistog objekta.</p>
+            <p>Za najmlađe posetioce osmislili smo dečiju igraonicu sa kvalitetnim i atraktivnim sadržajem, uz ispunjenje najviših bezbednosnih standarda. Dan proveden u našoj igraonici pružiće deci nezaboravan doživljaj, a roditeljima mogućnost za trenutke opuštanja. Igraonica je dizajnirana tako da veselim i radosnim bojama doprinese prijatnom boravku dece. Dečija igraonica je odlično mesto za decu da razviju svoje fizičke, emocionalne, društvene i maštovite veštine. Prostor je predviđen za svu decu raspoloženu za različite aktivnosti i avanture u čarobnom svetu igre. Uživajte u razigranoj i živahnoj atmosferi sigurnog i čistog objekta.</p>
             <div class="services">      
                 <i class="fa-sharp fa-solid fa-cake-candles"></i>
                 <i class="fa-solid fa-wifi"></i>
@@ -41,10 +41,10 @@
         <div class="gallery">
             <h3>Galerija slika</h3>
             <div class="images">
-                <img class="imgItem" src="img/decijaIgraonica1.jpg" alt="Dečija igraonica">
-                <img class="imgItem" src="img/decijaIgraonica2.jpg" alt="Dečija igraonica">
-                <img class="imgItem" src="img/decijaIgraonica3.jpg" alt="Dečija igraonica">
-                <img class="imgItem" src="img/decijaIgraonica4.jpg" alt="Dečija igraonica">
+                <img class="imgItem" src="img/d1.jpg" alt="Dečija igraonica">
+                <img class="imgItem" src="img/d2.jpg" alt="Dečija igraonica">
+                <img class="imgItem" src="img/d3.jpg" alt="Dečija igraonica">
+                <img class="imgItem" src="img/d4.jpg" alt="Dečija igraonica">
             </div>
         </div>
     </section>
