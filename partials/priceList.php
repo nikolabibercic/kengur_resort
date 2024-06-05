@@ -232,12 +232,12 @@
         <tr>
             <td id="td1">Red bull</td>
             <td id="td2">0.25</td>
-            <td id="td3">350</td>
+            <td id="td3">450</td>
         </tr>
         <tr>
             <td id="td1">Guarana</td>
             <td id="td2">0.25</td>
-            <td id="td3">450</td>
+            <td id="td3">350</td>
         </tr>
     </table>
 
@@ -856,12 +856,12 @@
             <tr>
                 <td id="td1">Red bull</td>
                 <td id="td2">0.25</td>
-                <td id="td3">350</td>
+                <td id="td3">450</td>
             </tr>
             <tr>
                 <td id="td1">Guarana</td>
                 <td id="td2">0.25</td>
-                <td id="td3">450</td>
+                <td id="td3">350</td>
             </tr>
         </table>
 
