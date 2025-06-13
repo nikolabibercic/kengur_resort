@@ -873,7 +873,7 @@
                 <th colspan="3">Vode (pet ambalaža)</th>
             </tr>
             <tr>
-                <td id="td1">Voga negazirana - Aqua Viva</td>
+                <td id="td1">Voda negazirana - Aqua Viva</td>
                 <td id="td2">0.5</td>
                 <td id="td3">250</td>
             </tr>
