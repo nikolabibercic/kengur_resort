@@ -645,52 +645,52 @@
         <table>
             <tr>
                 <td id="td1">Pileće belo</td>
-                <td id="td2">250g</td>
+                <td id="td2"></td>
                 <td id="td3">600</td>
             </tr>
             <tr>
                 <td id="td1">Pileći batak</td>
-                <td id="td2">250g</td>
+                <td id="td2"></td>
                 <td id="td3">600</td>
             </tr>
             <tr>
                 <td id="td1">Pljeskavica</td>
-                <td id="td2">250g</td>
+                <td id="td2"></td>
                 <td id="td3">550</td>
             </tr>
             <tr>
                 <td id="td1">Punjena pljeskavica</td>
-                <td id="td2">350g</td>
+                <td id="td2"></td>
                 <td id="td3">650</td>
             </tr>
             <tr>
                 <td id="td1">Gurmanska pljeskavica</td>
-                <td id="td2">300g</td>
+                <td id="td2"></td>
                 <td id="td3">550</td>
             </tr>
             <tr>
                 <td id="td1">Ćevapi</td>
-                <td id="td2">350g</td>
+                <td id="td2"></td>
                 <td id="td3">600</td>
             </tr>
             <tr>
                 <td id="td1">Kobasica</td>
-                <td id="td2">300g</td>
+                <td id="td2"></td>
                 <td id="td3">600</td>
             </tr>
             <tr>
                 <td id="td1">Kengur kobasica sa kačkavaljem</td>
-                <td id="td2">300g</td>
+                <td id="td2"></td>
                 <td id="td3">650</td>
             </tr>
             <tr>
                 <td id="td1">Pomfrit</td>
-                <td id="td2">150g</td>
+                <td id="td2"></td>
                 <td id="td3">300</td>
             </tr>
             <tr>
                 <td id="td1">Susam piletina</td>
-                <td id="td2">250g</td>
+                <td id="td2"></td>
                 <td id="td3">650</td>
             </tr>
         </table>
