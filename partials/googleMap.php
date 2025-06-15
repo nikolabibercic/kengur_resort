@@ -8,7 +8,7 @@
             <P>Kengur Resort</P>
             <p><i class="fa-solid fa-house"></i> Akira Kurosave 7, Beograd</p>
             <p><i class="fa-solid fa-phone"></i><a href="tel:+381113170154"> +381 11 3170 154</a></p>
-            <p><i class="fa-solid fa-phone"></i><a href="tel:+381605212900"> +381 60 5212 900</a></p>
+            <p><i class="fa-solid fa-phone"></i><a href="tel:+38169779896"> +381 69 779 896</a></p>
             <p><i class="fa-sharp fa-regular fa-envelope"></i> kengurresort@gmail.com</p>
             <p><i class="fa-brands fa-internet-explorer"></i></i> www.kengurresort.com</p>
         </article>
